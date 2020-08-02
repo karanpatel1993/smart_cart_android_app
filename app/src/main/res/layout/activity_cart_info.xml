@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:gravity="center">
+
+        <TextView android:id="@+id/welcome_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="SmartCart Console"
+            android:gravity="center"
+            android:textSize="28dip"/>
+
+        <TextView android:id="@+id/active_cart_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:text="Active cart: None"
+            android:gravity="center"
+            android:textSize="28dip"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_order_cart"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:padding="12dp"
+            android:text="Order cart"/>
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_start_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:padding="12dp"
+            android:text="Start"/>
+        
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_left_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:text="Left"/>
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btn_right_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:padding="12dp"
+                android:text="Right" />
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_stop_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:padding="12dp"
+            android:text="Stop"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_emergency_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:padding="12dp"
+            android:text="Emergency"/>
+
+
+    </LinearLayout>
+</ScrollView>
